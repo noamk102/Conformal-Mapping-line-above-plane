@@ -27,7 +27,13 @@ The radiuse of the cylinder is a physical given and will be noted as: $a$. So is
 <img width="2178" height="1952" alt="initial_state" src="https://github.com/user-attachments/assets/616888b4-0d42-40d4-81eb-7e052952d73b" />
 
 The initial possition of the cylinder is discribed by a complex number that follows the equation:
-$x^2+y^2$
+$x^2+y^2-2(cx+ny)+c^2+n^2=a^2$
+
+The initial possition of the ground plane is discribed as the complex number:
+$Z=c+b+yi$
+
+The Conformal Mapping will take all the complex numbers $Z$ and will transform them into $W$:
+$W=1/Z$
 
 1. **Mapping:** The complex physical space is transformed into a simplified mathematical domain.
 2. **Solving:** Laplace's equation is easily solved in this uniform domain to find the electric field and voltage potentials.
