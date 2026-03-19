@@ -24,5 +24,5 @@ This simulation demonstrates the power of **Conformal Mapping** (using complex v
 ## How to Run
 1. Clone this repository to your local machine.
 2. Open the folder in MATLAB.
-3. Run the main script: `main_simulation.m` *(Note: update this to match your actual file name)*.
+3. Run the main script: `main_simulation.m`.
 4. The script will output the static field plots and generate the animation figure.
