@@ -1,0 +1,13 @@
+# MATLAB auto-save files
+*.asv
+*.autosave
+
+# MATLAB compiled binaries (if you ever generate them)
+*.mex*
+*.mexa64
+*.mexw64
+*.mexw32
+*.mexmaci64
+
+# Optional: Ignore large data files if you don't want to upload them
+# *.mat
