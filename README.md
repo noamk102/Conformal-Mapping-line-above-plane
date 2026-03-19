@@ -13,10 +13,21 @@ This project was built to translate abstract electromagnetic theory into a concr
 
 This repository contains the MATLAB scripts used to calculate and animate the conformal mapping process, bridging the gap between mathematical theory and practical visualization.
 
-## The Physics & Math
+## The Physics
 Solving Poisson's or Laplace's equation for cylindrical boundaries over flat planes is analytically challenging in the standard Cartesian coordinate system. 
+Our aime will be to transform the geometry of a cylinder above a ground plate (be it endlessly long in the Y direction) into a geometry of two concentric cylinders (coaxial cable).
 
-This simulation demonstrates the power of **Conformal Mapping** (using complex variables where $z = x + iy$). By applying a specific mathematical transformation (such as a bilinear transformation), we map the complex geometry of a cylinder over a plane into a much simpler geometry—like two concentric cylinders (coaxial cable) or parallel plates. 
+This simulation demonstrates the power of **Conformal Mapping** for solving such a problem. By applying a specific mathematical transformation (such as a bilinear transformation), we map the complex geometry of a cylinder over a plane into a much simpler geometry—like two concentric cylinders (coaxial cable) or parallel plates. 
+
+## The Math
+The geometrey of the cylinder above a plate will be analyzed from the 2D prespective of the X-Y plane (Z being the direction of the energy propergation). We will use the Complex Number field to represent the X-Y plane in terms of complex variables where $z = x + iy$.
+
+The radiuse of the cylinder is a physical given and will be noted as: $a$. So is the distance between the cylinder and the ground plate and it will be noted as: $b$.
+
+<img width="2178" height="1952" alt="initial_state" src="https://github.com/user-attachments/assets/616888b4-0d42-40d4-81eb-7e052952d73b" />
+
+The initial possition of the cylinder is discribed by a complex number that follows the equation:
+$x^2+y^2%
 
 1. **Mapping:** The complex physical space is transformed into a simplified mathematical domain.
 2. **Solving:** Laplace's equation is easily solved in this uniform domain to find the electric field and voltage potentials.
