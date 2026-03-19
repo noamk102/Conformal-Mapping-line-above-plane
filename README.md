@@ -2,7 +2,11 @@
 
 A MATLAB-based visual representation of electrostatic fields and equipotential lines for a cylindrical conductor (transmission line) situated above an infinite conductive ground plane. 
 
-![Simulation Demo](simulatin.gif)
+
+
+https://github.com/user-attachments/assets/928da6b5-cd56-4118-b4d7-d5358a58fea3
+
+
 
 ## Overview
 This project was built to translate abstract electromagnetic theory into a concrete, visual simulation. In RF and microwave engineering, understanding the field distribution around transmission lines is critical for calculating capacitance, characteristic impedance, and identifying potential breakdown regions. 
